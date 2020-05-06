@@ -10,13 +10,13 @@ After cloning the repo, run
 I recommend node.js v12 or better.
 
 ## Data Sources
-###New York Times
+### New York Times
 The NYT data is available at git@github.com:nytimes/covid-19-data.git  This is where the data for counties and states is sourced.  
 
-###Johns Hopkins
+### Johns Hopkins
 The Johns Hopkins data is available at git@github.com:CSSEGISandData/COVID-19.git  This is where data for countries is sourced.
 
-##Google Sheets
+## Google Sheets
 
 In the end, all this data goes in to Google Sheets so the values can be seen and the results can be visualized.  
 
@@ -36,7 +36,7 @@ The [New York Times State Data](https://docs.google.com/spreadsheets/d/1ptKcB8kG
 
 The [New York Times County Data](https://docs.google.com/spreadsheets/d/1A8EBz1u-tLTTVNtTJz0sXJqPt-QV7CC9OQTJ4cT5-lU/edit?usp=sharing) contains analysis of counties that are interesting to me.
 
-##Scripts
+## Scripts
 The script update-states.js will update a spreadsheet with the state data, and update-counties.js will update the county data.  update-jh.js will update a sheet with the Hopkins country data.
 
 The poorly-named get-numbers.js script will pull the data from the specified tab on the specified sheet, run polynomial regressions of order 1-7 on the data, select the order that most closely predicts the current case number, and update the tab in the spreadsheet with the terms of the equation, which will then recompute the regression and the extrapolation.
@@ -51,5 +51,5 @@ Of course x<sup>0</sup> for any value of x is 1.
 
 Each data tab pulls the terms of the equation from specific cells that are updated by get-numbers.js and does the regression or extrapolation by summing the terms on the same row as the data.  This made for easy debugging in the early days of these spreadsheets.
 
-##Other Stuff in Here
+## Other Stuff in Here
 There is also some code in here to process data from the [COVID Tracking Project](https://covidtracking.com), but it is less mature.
