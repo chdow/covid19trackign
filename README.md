@@ -2,8 +2,10 @@
 &copy; 2020 Christopher Dow [MIT](https://opensource.org/licenses/MIT) license
 These are some tools to get data out of various data sources and into Google Sheets, as well as tools to run polynomial regressions and pick the "best" one that fits the current data, and update the sheets with the terms of those polynomials.
 
-##License
-This code is covered by the MIT license.
+## Getting Started
+After cloning the repo, run 
+>>npm install
+I recommend node.js v12 or better.
 
 ## Data Sources
 ###New York Times
