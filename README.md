@@ -47,3 +47,5 @@ Of course x<sup>0</sup> for any value of x is 1.
 
 Each data tab pulls the terms of the equation from specific cells that are updated by get-numbers.js and does the regression or extrapolation by summing the terms on the same row as the data.  This made for easy debugging in the early days of these spreadsheets.
 
+##Other Stuff in Here
+There is also some code in here to process data from the [COVID Tracking Project](https://covidtracking.com), but it is less mature.
