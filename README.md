@@ -4,7 +4,9 @@ These are some tools to get data out of various data sources and into Google She
 
 ## Getting Started
 After cloning the repo, run 
+
 >>npm install
+
 I recommend node.js v12 or better.
 
 ## Data Sources
